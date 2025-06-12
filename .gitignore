@@ -1,0 +1,16 @@
+# Ignore all files in the gtFine and leftImg8bit directories
+src/data/cityscapes/
+
+# DS_Store files, pycaches, and other common ignores
+**/.DS_Store
+.DS_Store
+
+# **
+*.pyc
+*__pycache__/
+/Users/kipyokim/Desktop/EffiSeg-lucinaaal/ssh-remote+univ-server:.inetloc
+
+# Loggings & ckpt
+wandb/
+ckpt/
+*.pth

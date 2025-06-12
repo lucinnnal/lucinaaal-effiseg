@@ -18,7 +18,7 @@ from configs.train_arguements import get_arguments
 
 from src.data.get_dataset import get_dataset
 from src.models.get_model import get_model
-from src.trainer import DICELossTrainer
+from src.trainer import DiceFocalLossTrainer 
 from src.utils.compute_metrics import compute_metrics
 
 def set_seed(seed):
@@ -41,7 +41,7 @@ def main(args):
     model.to(device)
 
     ## =================== Trainer =================== ##
-    wandb.init(project='Effiseg', name=f'diceloss')
+    wandb.init(project='Effiseg', name=f'diceloss_updated')
 
     training_args = TrainingArguments(
         output_dir=f"./ckpt/{args.save_dir}",
@@ -62,7 +62,7 @@ def main(args):
         dataloader_num_workers=0,
     )
 
-    trainer = DICELossTrainer(
+    trainer = DiceFocalLossTrainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,

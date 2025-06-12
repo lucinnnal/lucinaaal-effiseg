@@ -19,8 +19,8 @@ achieve competitive segmentation accuracy while maintaining a lightweight archit
 opening avenues for deployment in real-time and edge-device scenarios. One of our methods achieves up to **+5.69%** mIoU improvement over the SegFormer-B0 baseline on the Cityscapes dataset, without compromising inference speed. The code is available
 at https://github.com/lucinnnal/lucinal_EffiSeg.
 
-## 🧩 Distillation Strategy Overview
-![KD Architecture](./src/pics/Figure.png)<br>
+## 🧩 Distillation Strategy
+![KD Architecture](./src/pics/kd/Figure.png)<br>
 **Overview of KD** Four types of loss terms are used for knowledge distillation. Class-
 Weighted Cross-Entropy Loss is applied for standard label supervision. Cosine Similarity Guided
 Feature Distillation (CSKD) is also employed stage-wise to align the spatial and structural represen-

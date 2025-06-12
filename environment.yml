@@ -9,7 +9,7 @@ dependencies:
   - pip
   
   # CUDA support
-  - # cudatoolkit # =11.8
+  - cudatoolkit=11.8
   
   # Basic libraries
   - numpy

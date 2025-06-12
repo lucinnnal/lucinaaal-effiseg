@@ -33,9 +33,7 @@ semantic consistency.
 ## 📊 Class-wise IoU Comparison
 ![Class-wise IoU](./src/pics/ious/cls_ious.png)<br>
 **Per class IoU** To evaluate segmentation performance across different object classes, we present a radar chart comparing class-wise IoU scores of various training strategies: Baseline, KD, Dice-Focal Loss, and DyT.
-
 Our Knowledge Distillation (KD) method demonstrates superior performance over most classes, showing a broader coverage than the baseline. Particularly, KD achieves notable gains in challenging categories such as train and truck. This improvement indicates that our KD strategy effectively transfers semantic knowledge from teacher to student network, enhancing the model’s ability to segment both large and small objects accurately.
-
 Overall, the balanced improvements across diverse class types highlight the robustness of our KD method, especially in enhancing feature discrimination for under-represented or visually complex categories.
 
 

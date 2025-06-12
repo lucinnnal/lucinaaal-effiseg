@@ -108,6 +108,7 @@ def colormap_NYU(N=256, normalized=False):
 
     cmap = cmap/255 if normalized else cmap
     return cmap
+
 class Colorize_NYU:
 
     def __init__(self, n=41):

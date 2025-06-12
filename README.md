@@ -17,7 +17,7 @@ feature-based, logit-based, and patch-based model aware knowledge distillation t
 (3) **loss function refinement** to address class imbalance. The proposed training strategies
 achieve competitive segmentation accuracy while maintaining a lightweight architecture, thereby
 opening avenues for deployment in real-time and edge-device scenarios. One of our methods achieves up to **+5.69%** mIoU improvement over the SegFormer-B0 baseline on the Cityscapes dataset, without compromising inference speed. The code is available
-at https://github.com/lucinnnal/lucinal_EffiSeg.
+at https://github.com/lucinnnal/lucinaaal-effiseg.
 
 ## 🧩 Distillation Strategy
 ![KD Architecture](./src/pics/kd/Figure.png)<br>

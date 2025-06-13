@@ -20,7 +20,7 @@ opening avenues for deployment in real-time and edge-device scenarios. One of ou
 at https://github.com/lucinnnal/lucinaaal-effiseg.
 
 ## Project Report
-Please see the [paper](./report.pdf) for detailed implementation
+Please see the [paper](./paper.pdf) for detailed implementation
 
 ## 🧩 Distillation Strategy
 ![KD Architecture](./src/pics/kd/Figure.png)<br>

@@ -19,6 +19,9 @@ achieve competitive segmentation accuracy while maintaining a lightweight archit
 opening avenues for deployment in real-time and edge-device scenarios. One of our methods achieves up to **+5.69%** mIoU improvement over the SegFormer-B0 baseline on the Cityscapes dataset, without compromising inference speed. The code is available
 at https://github.com/lucinnnal/lucinaaal-effiseg.
 
+## Project Report
+Please see the [paper](./report.pdf) for detailed implementation
+
 ## 🧩 Distillation Strategy
 ![KD Architecture](./src/pics/kd/Figure.png)<br>
 **Overview of KD** Four types of loss terms are used for knowledge distillation. Class-
